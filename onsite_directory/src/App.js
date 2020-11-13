@@ -13,7 +13,6 @@ import Title from "./components/Title";
         <Wrapper>
           <Gallery />
         </Wrapper>
-        <Footer />
       </div>
     );
   }
