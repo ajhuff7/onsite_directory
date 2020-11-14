@@ -5,13 +5,29 @@ function CardBody() {
   const { user } = useContext(UserContext);
   return (
     <div>
-      <h4>
-        name: {user.name}
-        phone: {user.phone}
-        language: {user.language}
-        dob: {user.dob}
-        email: {user.email}
-      </h4>
+      <div class="wrapper">
+        <div class="row">
+          <div>
+            <img className="card-img" src={user.image} alt="user thumbnail" />
+            {!user.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
+          </div>
+          <div class="col">
+           {user.name}
+          </div>
+          <div class="col">
+            email: {user.email}
+          </div>
+        </div>
+        <div class="col">
+          language: {user.language}
+        </div>
+        <div class="col">
+          phone: {user.phone}
+        </div>
+        <div class="col">
+          dob: {user.dob}
+        </div>
+      </div>
     </div>
   );
 }

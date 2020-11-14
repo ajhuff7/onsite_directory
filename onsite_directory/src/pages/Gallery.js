@@ -5,81 +5,29 @@ import CardContainer from "../components/CardContainer";
 import Row from "../components/Row";
 import LanguageContext from "../utils/LanguageContext";
 import LanguageSelector from "../components/LanguageSelector";
-import directory from "./directory.json";
-
-function Gallery() {
-
-  const [languages, setLanguages] = useState([]);
-  const [language, setLanguage] = useState("");
-  const [languageIndex, setLanguageIndex] = useState(0);
-
-  const [users, setUsers] = useState([]);
-  const [user, setUser] = useState({});
-  const [userIndex, setUserIndex] = useState(0);
-
-  useEffect(() => {
-    API.getLanguagesList().then((languages) => {
-      setLanguages(languages)
-      setLanguage(languages[0])
-      
-      loadUsers(languages[0]);
-    });
-  }, [])
 
 
+class Gallery extends Component {
 
-  function handleUserBtnClick(event) {
-    // Get the title of the clicked button
-    const btnName = event.target.getAttribute("data-value");
-    if (btnName === "next") {
-      const newUserIndex = userIndex + 1;
-      nextUser(newUserIndex);
-    } else {
-      const newUserIndex = userIndex - 1;
-      previousUser(newUserIndex);
-    }
-  };
-
-  const loadUsers = (language) => {
-    API.getUsersByLanguage(language).then((users) => {
-      setUsers(users)
-      setUser(users[0])
-    })
-      .catch(err => console.log(err));
-  };
-
-  function nextLanguage(languageIndex) {
-    // Ensure that the language index stays within our range of languages
-    if (languageIndex >= languages.length) {
-      languageIndex = 0;
-    }
-    loadUsers(languages[languageIndex]);
-
-    setLanguage(languages[languageIndex])
-    setLanguageIndex(languageIndex)
+  state = {
+    Employees: Employees
   }
 
-  function previousLanguage(languageIndex) {
-    // Ensure that the language index stays within our range of languages
-    if (languageIndex < 0) {
-      languageIndex = languages.length - 1;
-    }
-    loadUsers(languages[languageIndex]);
+  const [employeeState, setEmployeeState] = useState [Employees]
+  const [inputState, setInputState] = setState
+
+  func handleChange(event) {
+    const {value} = event.target
     
-    setLanguage(languages[languageIndex])
-    setLanguageIndex(languageIndex)
-  }
+    const filtered = employeeState.filter((employee) =>
+    employee.name.includes(value))
+    
+    setEmployeeState(filtered)
+    
+    
+    handleChange={handleChange}
+    
 
-  function handleLanguageBtnClick(event) {
-    // Get the title of the clicked button
-    const btnName = event.target.getAttribute("data-value");
-    if (btnName === "next") {
-      const newLanguageIndex = languageIndex + 1;
-      nextLanguage(newLanguageIndex);
-    } else {
-      const newLanguageIndex = languageIndex - 1;
-      previousLanguage(newLanguageIndex);
-    }
   };
 
     return (

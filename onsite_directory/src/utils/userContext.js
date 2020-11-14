@@ -6,8 +6,8 @@ const UserContext = React.createContext({
   email: "",
   language: "",
   image: "",
-  capitalizeFirstLetter: () => {},
   handleBtnClick: () => {}
 });
 
 export default UserContext;
+

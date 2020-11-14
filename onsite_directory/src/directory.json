@@ -12,29 +12,29 @@
     {
       "id": 2,
       "image": "https://randomuser.me/api/portraits/women/75.jpg",
-      "name": "Jane Smith",
+      "name": "Joan Sanders",
       "phone": "619-518-5066",
-      "language": "javascript",
+      "language": "ruby",
       "dob": "10-14-99",
-      "email": "jane@work.com"
+      "email": "joan@work.com"
 
     },
     {
       "id": 3,
       "image": "https://randomuser.me/api/portraits/men/65.jpg",
-      "name": "John Smith",
+      "name": "Mark Williams",
       "phone": "619-518-5066",
       "language": "javascript",
       "dob": "10-14-99",
-      "email": "john@work.com"
+      "email": "mark@work.com"
 
     },
     {
       "id": 4,
       "image": "https://randomuser.me/api/portraits/women/65.jpg",
-      "name": "Jane Smith",
+      "name": "Jane Taylor",
       "phone": "619-518-5066",
-      "language": "javascript",
+      "language": "python",
       "dob": "10-14-99",
       "email": "jane@work.com"
 
@@ -42,51 +42,51 @@
     {
       "id": 5,
       "image": "https://randomuser.me/api/portraits/men/55.jpg",
-      "name": "John Smith",
+      "name": "Jack Henry",
       "phone": "619-518-5066",
-      "language": "javascript",
+      "language": "ruby",
       "dob": "10-14-99",
-      "email": "john@work.com"
+      "email": "jack@work.com"
 
     },
     {
       "id": 6,
       "image": "https://randomuser.me/api/portraits/women/55.jpg",
-      "name": "Jane Smith",
+      "name": "Lisa Loeb",
       "phone": "619-518-5066",
       "language": "javascript",
       "dob": "10-14-99",
-      "email": "jane@work.com"
+      "email": "lisa@work.com"
 
     },
     {
       "id": 7,
       "image": "https://randomuser.me/api/portraits/men/45.jpg",
-      "name": "John Smith",
+      "name": "Frank Brady",
       "phone": "619-518-5066",
-      "language": "javascript",
+      "language": "python",
       "dob": "10-14-99",
-      "email": "john@work.com"
+      "email": "frank@work.com"
 
     },
     {
       "id": 8,
       "image": "https://randomuser.me/api/portraits/women/45.jpg",
-      "name": "Jane Smith",
+      "name": "Rita Raymond",
       "phone": "619-518-5066",
-      "language": "javascript",
+      "language": "c++",
       "dob": "10-14-99",
-      "email": "jane@work.com"
+      "email": "rita@work.com"
 
     },
     {
       "id": 9,
       "image": "https://randomuser.me/api/portraits/men/35.jpg",
-      "name": "John Smith",
+      "name": "Larry Zuko",
       "phone": "619-518-5066",
-      "language": "javascript",
+      "language": "c++",
       "dob": "10-14-99",
-      "email": "john@work.com"
+      "email": "larry@work.com"
 
     }
   ]
