@@ -97,7 +97,7 @@ class App extends Component {
         <Header
           handleName={this.handleName}
           handleEmail={this.handleEmail}
-          handleLangauge={this.handleLangauge}
+          handleLanguage={this.handleLanguage}
 
         />
         {this.state.employee.map(employee => (
@@ -108,7 +108,7 @@ class App extends Component {
             email={employee.email}
             phone={employee.phone}
             language={employee.language}
-            DOB={employee.dob}
+            dob={employee.dob}
           />
 
         ))}
