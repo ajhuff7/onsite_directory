@@ -47,7 +47,7 @@ This Onsite Directory is a model for a company employee directory. It was built 
 
 ## Deployed Link
 
-* [See Live Site](https://still-brook-83003.herokuapp.com/)
+* [See Live Site](https://pacific-journey-56718.herokuapp.com/)
 
 ---
 
