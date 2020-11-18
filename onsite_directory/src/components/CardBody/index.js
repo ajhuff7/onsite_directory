@@ -1,31 +1,33 @@
-import React, { useContext } from "react";
-import UserContext from "../../utils/userContext";
+import React from "react";
+import "./style.css";
+
+
 
 function CardBody() {
-  const { user } = useContext(UserContext);
+
   return (
     <div>
-      <div class="wrapper">
+      <div class="container">
         <div class="row">
           <div>
-            <img className="card-img" src={user.image} alt="user thumbnail" />
-            {!user.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
+            <img className="card-img" src={employee.image} alt="user thumbnail" />
+            {!employee.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
           </div>
           <div class="col">
-           {user.name}
+           {employee.name}
           </div>
           <div class="col">
-            email: {user.email}
+            {employee.email}
           </div>
         </div>
         <div class="col">
-          language: {user.language}
+          {employee.language}
         </div>
         <div class="col">
-          phone: {user.phone}
+          {employee.phone}
         </div>
         <div class="col">
-          dob: {user.dob}
+          {employee.dob}
         </div>
       </div>
     </div>

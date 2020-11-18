@@ -1,6 +1,7 @@
 import React from "react";
+import "./style.css";
 
-function SearchForm(props) {
+function SearchBar(props) {
   return (
     <form>
       <div className="form-group">
@@ -15,7 +16,7 @@ function SearchForm(props) {
           id="search"
         />
         <br />
-        <button onClick={props.handleFormSubmit} className="btn btn-primary">
+        <button onClick={props.handleSubmit} className="btn btn-primary">
           Search
         </button>
       </div>
@@ -23,4 +24,4 @@ function SearchForm(props) {
   );
 }
 
-export default SearchForm;
+export default SearchBar;
