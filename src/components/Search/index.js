@@ -6,21 +6,16 @@ function SearchBar(props) {
     <form>
       <div className="form-group">
         <input
-          onChange={(event) => props.handleName}
+          onChange={event => this.handleInputChange(event)}
           name="search"
           type="text"
           className="form-control"
           placeholder="Search Name"
           id="search" />
-        <div className="buttonCenter">
-          <button className="btn is-dark is-outlined is-rounded" onClick={props.handleButtonSubmit}>
-            Search
-        </button>
-        <br />
-        </div>
       </div>
     </form>
   );
 }
 
 export default SearchBar;
+

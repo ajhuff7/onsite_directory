@@ -11,7 +11,21 @@ class App extends Component {
 
   state = {
     employee: employee,
+  
   }
+
+  handleInputChange = event => {
+    const searchEmployees = this.state.employee;
+    const searchValue = event.target.value.toUpperCase()
+    const selectedEmployees = searchEmployees.filter(function(item){
+      const uppercase = item.name.toUpperCase()
+      return uppercase.includes(searchValue)
+    })
+    this.setState({
+      employee:selectedEmployees
+    })
+  }
+
 
 
   handleName = event => {
@@ -68,21 +82,6 @@ class App extends Component {
 
 
 
-  handleButtonSubmit = event => {
-    const employee = this.state.employee;
-    const search = event.target.value.toUpperCase()
-
-    const employeeList = employee.filter(function (person) {
-      const uppercase = person.name.toUpperCase()
-      return uppercase.includes(search)
-    })
-
-    this.setState({
-      employees: employeeList
-    });
-  };
-
-
 
 
 
@@ -92,7 +91,7 @@ class App extends Component {
       <Container>
         <Title />
         <SearchBar
-          handleButtonSubmit={this.handleButtonSubmit}
+          handleInputChange={this.handleInputChange}
         />
         <Header
           handleName={this.handleName}
