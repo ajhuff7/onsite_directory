@@ -1,8 +1,8 @@
-# onsite_directory
+# Onsite Directory
 
- ![workout1](public/assets/workout1.PNG)
+ ![onsite1](public/assets/onsite1.PNG)
 
-This Workout Tracker allows you to document your exercise routines and provides graph data with record of your progress. It utilizes api routes to saved your personalized workouts from your browser and stores your stats in a Mongo database to access upon demand.
+This Onsite Directory is a model for a company employee directory. It was built with React.JS and uses component states to organize data.
 
 ## Table of Contents
 
@@ -19,32 +19,31 @@ This Workout Tracker allows you to document your exercise routines and provides 
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [MongoDB](https://www.mongodb.com/)
+* [React](https://reactjs.org/)
 * [NPM](https://www.npmjs.com/)
 * [Express](https://expressjs.com/)
 * [nodeJS](https://nodejs.org/en/)
-* [Mongoose](https://mongoosejs.com/docs/)
-* [Morgan](https://www.npmjs.com/package/morgan)
+
 
 ## Usage
  
- Users are prompted to select an exercise type, then enter exercise name and perimeters. Users can choose to add additional exercises or complete their workout. Upon completion, workouts are submitted to the fitness dashboard, which users can access to view their metrics.
+ The Onsite Directory has variable search paramenters. Users can select the Name, Email, or Language header tabs to change the sorting order of the directory or type a name into the search bar to search for a particular employee.
 
-  ![workout2](public/assets/workout2.gif)
 
 ## Features
 
-- Utilizes Mongoose to set the format of the database. 
+- Handle click event listeners change the state and allow sorting options. 
 
-  ![workout4](public/assets/workout4.PNG)
+  ![onsite2](public/assets/onsite2.gif)
 
-- Express manages the api routes to GET and POST data to and from the database...
+- HandleButtonClick function sorts employees, brings matching employees to the top of the list..
 
-  ![workout5](public/assets/workout5.PNG)
+  ![onsite3](public/assets/onsite3.PNG)
 
-- ... and return that data to the browser.
+- Database of employees stored in json format for easy retrieval/input.
 
-  ![workout3](public/assets/workout3.gif)
+  ![onsite4](public/assets/onsite4.PNG)
+
 
 ## Deployed Link
 

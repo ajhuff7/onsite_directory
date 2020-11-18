@@ -4,78 +4,78 @@
       "image": "https://randomuser.me/api/portraits/men/75.jpg",
       "name": "John Smith",
       "phone": "619-518-5066",
-      "language": "javascript",
-      "dob": "10-14-99",
+      "language": "Javascript",
+      "dob": "10-14-76",
       "email": "john@work.com"
 
     },
     {
       "id": 2,
       "image": "https://randomuser.me/api/portraits/women/75.jpg",
-      "name": "Joan Sanders",
-      "phone": "619-518-5066",
-      "language": "ruby",
-      "dob": "10-14-99",
-      "email": "joan@work.com"
+      "name": "Gina Sanders",
+      "phone": "415-518-5066",
+      "language": "Ruby",
+      "dob": "9-14-85",
+      "email": "gina@work.com"
 
     },
     {
       "id": 3,
       "image": "https://randomuser.me/api/portraits/men/65.jpg",
       "name": "Mark Williams",
-      "phone": "619-518-5066",
-      "language": "javascript",
-      "dob": "10-14-99",
+      "phone": "602-518-5066",
+      "language": "Javascript",
+      "dob": "8-14-01",
       "email": "mark@work.com"
 
     },
     {
       "id": 4,
       "image": "https://randomuser.me/api/portraits/women/65.jpg",
-      "name": "Jane Taylor",
-      "phone": "619-518-5066",
-      "language": "python",
-      "dob": "10-14-99",
-      "email": "jane@work.com"
+      "name": "Brenda Taylor",
+      "phone": "303-518-5066",
+      "language": "Python",
+      "dob": "7-14-86",
+      "email": "brenda@work.com"
 
     },
     {
       "id": 5,
       "image": "https://randomuser.me/api/portraits/men/55.jpg",
-      "name": "Jack Henry",
-      "phone": "619-518-5066",
-      "language": "ruby",
-      "dob": "10-14-99",
-      "email": "jack@work.com"
+      "name": "Amos Henry",
+      "phone": "213-518-5066",
+      "language": "Ruby",
+      "dob": "6-14-94",
+      "email": "amos@work.com"
 
     },
     {
       "id": 6,
       "image": "https://randomuser.me/api/portraits/women/55.jpg",
       "name": "Lisa Loeb",
-      "phone": "619-518-5066",
-      "language": "javascript",
-      "dob": "10-14-99",
+      "phone": "520-518-5066",
+      "language": "Javascript",
+      "dob": "5-14-99",
       "email": "lisa@work.com"
 
     },
     {
       "id": 7,
       "image": "https://randomuser.me/api/portraits/men/45.jpg",
-      "name": "Frank Brady",
-      "phone": "619-518-5066",
-      "language": "python",
-      "dob": "10-14-99",
-      "email": "frank@work.com"
+      "name": "Oscar Brady",
+      "phone": "720-518-5066",
+      "language": "Python",
+      "dob": "4-14-83",
+      "email": "oscar@work.com"
 
     },
     {
       "id": 8,
       "image": "https://randomuser.me/api/portraits/women/45.jpg",
       "name": "Rita Raymond",
-      "phone": "619-518-5066",
-      "language": "c++",
-      "dob": "10-14-99",
+      "phone": "808-518-5066",
+      "language": "C++",
+      "dob": "3-14-91",
       "email": "rita@work.com"
 
     },
@@ -83,9 +83,9 @@
       "id": 9,
       "image": "https://randomuser.me/api/portraits/men/35.jpg",
       "name": "Larry Zuko",
-      "phone": "619-518-5066",
-      "language": "c++",
-      "dob": "10-14-99",
+      "phone": "650-518-5066",
+      "language": "C++",
+      "dob": "2-14-84",
       "email": "larry@work.com"
 
     }
