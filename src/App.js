@@ -14,19 +14,6 @@ class App extends Component {
   
   }
 
-  handleInputChange = event => {
-    const searchEmployees = this.state.employee;
-    const searchValue = event.target.value.toUpperCase()
-    const selectedEmployees = searchEmployees.filter(function(item){
-      const uppercase = item.name.toUpperCase()
-      return uppercase.includes(searchValue)
-    })
-    this.setState({
-      employee:selectedEmployees
-    })
-  }
-
-
 
   handleName = event => {
     const employee = this.state.employee;
@@ -81,7 +68,18 @@ class App extends Component {
   }
 
 
+  handleInputChange = event => {
+    const searchEmployees = this.state.employee;
+    const searchValue = event.target.value.toUpperCase()
+    const selectedEmployees = searchEmployees.filter(function(item){
+      const uppercase = item.name.toUpperCase()
+      return uppercase.includes(searchValue) 
+    })
+    this.setState({
+      employee:selectedEmployees
+    })
 
+  }
 
 
 

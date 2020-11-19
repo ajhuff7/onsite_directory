@@ -6,12 +6,15 @@ function SearchBar(props) {
     <form>
       <div className="form-group">
         <input
-          onChange={event => this.handleInputChange(event)}
+          onChange={event => props.handleInputChange(event)}
           name="search"
           type="text"
           className="form-control"
           placeholder="Search Name"
           id="search" />
+          <div>
+            <br/>
+          </div>
       </div>
     </form>
   );
